@@ -1,0 +1,185 @@
+body {
+	font-size: 15px;
+	font-family: Celias, Helvetica;
+	margin: 0;
+	background: #f2f2f2;
+}
+
+ul.topnav {
+	list-style-type: none;
+	position: fixed;
+	background-color: #00802b;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.topnav li a:hover {
+	background-color: #111;
+}
+
+ul.topnav li a.active {
+	background-color: #ff9900;
+}
+
+ul.topnav li.right {
+	float: right;
+}
+
+@media screen and (max-width: 600px) {
+	ul.topnav li.right, ul.topnav li {
+		float: none;
+	}
+}
+
+.searchbar {
+	margin-top: 60px;
+	justify-content: center;
+	display: flex;
+}
+
+.search-text {
+	padding: 8px 15px;
+	background: white;
+	border: 0px solid #dbdbdb;
+	width: 700px;
+	height: 30px;
+}
+
+.search-button {
+	padding: 6px 15px;
+	left: -8px;
+	width: 150px;
+	background-color: #ff9900;
+	color: #fafafa;
+	border: 2px solid #ff9900;
+}
+
+.search-button:hover {
+	background-color: white;
+	color: black;
+}
+
+.topcontent {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	padding: 40px;
+	margin-top: 10px;
+}
+
+.innercontent {
+	display: block;
+	float: left;
+	background: white;
+	width: 200px;
+	height: 300px;
+	align-content: center;
+	text-align: center;
+}
+
+.innercontent img {
+	width: 150px;
+	height: 150px;
+	padding-left: 20px;
+}
+
+.add-to-cart__add-btn {
+	background-color: white;
+	color: black;
+	width: inherit;
+	border-radius: 5px;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	border: 2px solid #ff9900;
+}
+
+.add-to-cart__add-btn:hover {
+	background-color: #ff9900;
+	color: white;
+}
+
+.newline {
+	margin-left: 20px;
+}
+
+.bottomcontent {
+	background: black;
+	display: block;
+	padding: 35px 10px 35px 40px;
+	color: white;
+}
+
+.checkout-details {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 40px;
+	border: 2px solid #ff9900;
+	align-content: center;
+}
+
+.cart-details {
+	display: block;
+	align-content: center;
+}
+
+.item-details {
+	display: block;
+	text-align: center;
+}
+
+.inc-dec-button {
+	background-color: #ff9900;
+	color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	cursor: pointer;
+	border: 2px solid #ff9900;
+}
+
+.inc-dec-button:hover {
+	background-color: white;
+	color: #ff9900;
+}
+
+.item-count {
+	width: auto;
+}
+
+.login-block {
+	display: grid;
+	padding: 10px;
+	justify-content: center;
+}
+
+.input-element {
+	display: block;
+	width: inherit;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
